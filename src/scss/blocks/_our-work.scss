@@ -1,0 +1,36 @@
+.our-work{
+    padding: 50px 0 60px 0;
+    &__descr{
+        color: #2e2e2e;
+        font-size: 21px;
+        font-weight: 300;
+        line-height: 24px;
+        text-align: center;
+        margin: 38px 0 38px 0;
+    }
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item{
+        width: 360px;
+        text-align: center;
+    }
+    &__img{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    &__subtittle{
+        color: $main_color;
+        font-size: 18px;
+        font-weight: 700;
+        margin-bottom: 12px;
+    }
+    &__text{
+        text-align: justify;
+        color: #3a3a3a;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 22px;
+    }
+}

@@ -3,6 +3,7 @@
     background-color: #f3f3f3;
     padding: 58px 0 50px 0;
     &__wrapper{
+        margin-top: 45px;
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
@@ -13,9 +14,11 @@
         justify-content: space-between;
         align-items: flex-start;
         margin-bottom: 36px;
+        
     }
     &__icon{
         margin-right: 17px;
+        margin-top: 5px;
     }
     &__subtittle{
         color: $main_color;
