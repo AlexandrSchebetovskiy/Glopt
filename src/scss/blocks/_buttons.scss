@@ -1,0 +1,30 @@
+.button{
+    width: 230px;
+    height: 60px;
+    background-color: $main_color;
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 17.35px;
+    text-transform: uppercase;
+    border:none;
+    border-radius: 15px;
+    transition: .4s all;
+    &:hover{
+        background-color: #fff;
+        color:$main_color;
+        border:2px solid $main_color ;
+    }
+    &_mini{
+        width: 160px;
+        height: 45px;
+        font-size: 12px;
+        font-weight: 400;
+        margin-top: 20px;
+    }
+    &_center{
+        display: block;
+        margin: 0 auto;
+    }
+}
