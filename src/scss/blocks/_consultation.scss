@@ -1,0 +1,36 @@
+.consultation{
+    min-height:400px ;
+    padding: 58px 0;
+    &__subtittle{
+        color: #3a3a3a;
+        font-family: Roboto;
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 23px;
+        text-align: center;
+        margin-bottom: 71px;
+    }
+
+    &__wrapper{
+        position: relative;
+    }
+    &__button{
+        position: absolute;
+        background-color: #fff;
+        padding: 0 10px;
+        bottom: -30px;
+        left: 50%;
+        text-align: center;
+        transform: translateX(-50%);
+
+    }
+    &__icon{
+        position: absolute;
+        background-color: #fff;
+        padding: 0 10px;
+        top: -57px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+   
+}

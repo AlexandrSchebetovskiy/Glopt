@@ -1,6 +1,7 @@
 @import "base/mixines.scss";
 @import "base/variables.scss";
 @import "bootstrap-reboot.min.scss";
+@import "base/slick.scss";
 
 *{
     margin: 0;
@@ -20,3 +21,11 @@
 @import "blocks/our-work.scss";
 @import "blocks/agent.scss";
 @import "blocks/prices.scss";
+@import "blocks/form.scss";
+@import "blocks/consultation.scss";
+@import "blocks/managers.scss";
+@import "blocks/scheme.scss";
+@import "blocks/feedback.scss";
+@import"blocks/carousel.scss";
+@import "blocks/question.scss";
+@import "blocks/footer.scss";

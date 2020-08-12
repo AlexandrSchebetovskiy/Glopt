@@ -1,0 +1,30 @@
+.form{
+    height: 166px;
+    border: 1px solid #bebebe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    &__input{
+        width: 268px;
+        height: 45px;
+        border: 1px solid rgba(0, 0, 0, 0.21);
+        background-color: #ffffff;
+        border-radius: 22px;
+        margin: 5px;
+        
+        color: #101010;
+        font-family: Roboto;
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 24px;
+        padding: 5px 10px;
+        &:focus{
+            outline: none;
+        }
+        &::placeholder{
+            opacity: 0.7;
+            color: $main_color;
+        }
+    }
+}

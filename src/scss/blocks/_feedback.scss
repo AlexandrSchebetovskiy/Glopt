@@ -1,0 +1,23 @@
+.feedback{
+    min-height: 470px;
+    padding: 50px 0 65px 0;
+    &__descr{
+        position: relative;
+        color: #2e2e2e;
+        font-size: 21px;
+        font-weight: 300;
+        text-align: center;
+        margin-top: 43px;
+        margin-bottom: 15px;
+        &:before{
+            content: '';
+            height: 1px;
+            width: 148px;
+            position: absolute;
+            background-color: $main_color;
+            top: -17px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+}

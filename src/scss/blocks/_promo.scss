@@ -85,6 +85,17 @@
             }
         }
     }
+    &__descr{
+
+        color: #ffffff;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     &__contact{
         display: flex;
         justify-content: space-between;
